@@ -17,7 +17,7 @@ Bir şirket için temel bir personel yönetim sistemi geliştireceksiniz. Bu sis
 
 - **Personel** sınıfında, personel bilgilerini ekrana yazdıran **PersonelBilgileri()** adında bir metot tanımlayın. Kapsamlı bir yapıcı metot (**constructor**) tanımlayın. Bu yapıcı metot, Ad, Soyad,Pozisyon, Maas ve CalismaSuresi özelliklerine değer atamak için kullanılacaktır.Yıllık ikramiyeleri hesaplayan **YillikIkramiye()** adında bir metot oluşturun. Bu metot:
 
-Pozisyon **“Yönetici”** ise yıllık maaşı %20’si kadar ikramiye döndürsün.Diğer pozisyonlar için %10 ikramiye döndürsün.
+- Pozisyon **“Yönetici”** ise yıllık maaşı %20’si kadar ikramiye döndürsün.Diğer pozisyonlar için %10 ikramiye döndürsün.
 
 - **PersonelYonetimi** adında ayrı bir sınıf oluşturun. Bu sınıfta bir List<Personel> kullanarak birden fazla personel ekleyebileceğiniz bir yapı oluşturun.PersonelYonetimi sınıfında aşağıdaki metodları tanımlayın:
 
