@@ -106,6 +106,7 @@ class Program
         PersonelYonetimi yonetim = new PersonelYonetimi();
         yonetim.PersonelEkle(personel1);
         yonetim.PersonelEkle(personel2);
+        
         // İkramiyesiz başlangıç maaşlarını gösterme
         Console.WriteLine("Başlangıç maaşları: ");
         personel1.PersonelBilgileri();
@@ -130,12 +131,12 @@ class Program
             Console.WriteLine("Personel bulunamadı.");
         }
 
-        //Programın kapanamasını önlemek için sonsuz bir döngü 
+        //Programın kapanmasını önlemek için sonsuz bir döngü 
         Console.WriteLine("Program kapanmasın diye bekleme döngüsüne girildi.");
 
         while (true)
         {
-            // Döngü içine bir bekleme yapabilirsiniz veya bir tuşa basıldığında döngüden çıkabilirsiniz.
+        // Döngü içine bir bekleme yapabilirsiniz veya bir tuşa basıldığında döngüden çıkabilirsiniz.
         }
     }
 }
